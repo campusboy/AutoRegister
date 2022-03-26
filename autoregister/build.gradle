@@ -43,6 +43,7 @@ task sourcesJar(type: Jar) {
 artifacts {
     archives sourcesJar
 }
+
 uploadArchives {
     repositories {
         mavenDeployer {
