@@ -12,7 +12,7 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation 'com.android.tools.build:gradle:4.0.0'
+    implementation 'com.android.tools.build:gradle:4.2.2'
 }
 
 
@@ -72,6 +72,7 @@ uploadArchives {
         }
     }
 }
+
 
 
 // 定义两个链接，下面会用到。
@@ -135,3 +136,4 @@ bintray {
         publish = true // 是否是公开项目。
     }
 }
+
